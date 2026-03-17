@@ -3082,11 +3082,11 @@ video {
 .h-\[240px\] {
   height: 240px;
 }
-.h-full {
-  height: 100%;
-}
 .h-\[600px\] {
   height: 600px;
+}
+.h-full {
+  height: 100%;
 }
 .max-h-\[520px\] {
   max-height: 520px;
@@ -3362,6 +3362,9 @@ video {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.pb-\[100px\] {
+  padding-bottom: 100px;
+}
 .pb-\[80px\] {
   padding-bottom: 80px;
 }
@@ -3380,17 +3383,14 @@ video {
 .pt-6 {
   padding-top: 1.5rem;
 }
+.pt-\[120px\] {
+  padding-top: 120px;
+}
 .pt-\[160px\] {
   padding-top: 160px;
 }
 .pt-\[72px\] {
   padding-top: 72px;
-}
-.pb-\[100px\] {
-  padding-bottom: 100px;
-}
-.pt-\[120px\] {
-  padding-top: 120px;
 }
 .text-center {
   text-align: center;
@@ -3555,13 +3555,13 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-.transition-transform {
-  transition-property: transform;
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-.transition-colors {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+.transition-transform {
+  transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
@@ -3941,14 +3941,14 @@ main {
     padding-top: 200px;
   }
 
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
   .md\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
